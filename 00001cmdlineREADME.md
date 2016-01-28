@@ -1,3 +1,21 @@
 # learnjavascript
 <h2> Command line arguments for developers</h2>
 <h3>assignment1</h3>
+
+
+#Exercises 3
+
+1. Become comfortable navigating your filesystem using only the CLI. Change directories to your filesystem’s “root”
+directory ( / on Mac and C/ on Windows). Navigate back to your $HOME directory. Use the [TAB] key to autocomplete
+directory names.
+2. Try creating an empty directory in your $HOME directory, then delete the empty directory. Repeat this process for
+an empty file..
+3. List all of the files in your $HOME directory. Sort the listing of these files by file size. Try listing all of the files in your
+root (/) directory using your $HOME as your present working directory, using the long format listing. Sort these files
+by file size as well.
+4. Change directories to a folder where you keep photos or other images. Try listing only the images of a certain file
+type, such as JPEGs or PNGs. Use the wildcard character to list only the images with filenames that contain the
+letter “s.”
+5. Try learning about commands not covered in this section. For instance, use man pages to read about
+the find command used for finding files on your computer. Use the find command to find all files with the “.jpg”
+file extension on your entire hard drive.
