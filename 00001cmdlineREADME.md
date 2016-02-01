@@ -56,3 +56,10 @@ exercise3--(4)
 bash-4.3$ ls *.jpg ---all files with jpg format will be listed.
 
 bash-4.3$ ls *.s ---all files with word "s" will be listed.
+
+exercise3--(5)
+
+man is the interface used to view the system's reference manuals.
+
+$man man 
+
