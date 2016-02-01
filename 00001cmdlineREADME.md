@@ -53,4 +53,5 @@ drwxr-xr-x 2 7949 7949   6 Jan 31 21:47 mydirectory1
 
 exercise3--(4)
 
-bash-4.3$ ls *.jpg 
+bash-4.3$ ls *.jpg ---all files with jpg format will be listed.
+bash-4.3$ ls *.s ---all files with word "s" will be listed.
