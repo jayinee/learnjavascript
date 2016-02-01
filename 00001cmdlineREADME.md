@@ -49,4 +49,8 @@ total 4
 bash-4.3$ ls -l                                                                                                                                                                              
 total 4                                                                                                                                                                                      
 -rw-r--r-- 1 7949 7949 978 Jan 31 21:42 README.txt                                                                                                                                           
-drwxr-xr-x 2 7949 7949   6 Jan 31 21:47 mydirectory1     
+drwxr-xr-x 2 7949 7949   6 Jan 31 21:47 mydirectory1   
+
+exercise3--(4)
+
+bash-4.3$ ls *.jpg 
