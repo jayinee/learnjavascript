@@ -1,6 +1,5 @@
 # learnjavascript
 <h2> Command line arguments for developers</h2>
-<h3>assignment1</h3>
 
 
 #Exercises 3
@@ -20,6 +19,8 @@ letter “s.”
 the find command used for finding files on your computer. Use the find command to find all files with the “.jpg”
 file extension on your entire hard drive.
 
+exercise3--(2)
+
 bash-4.3$ $home                                                                                                                                                                              
 bash-4.3$ pwd                                                                                                                                                                                
 /home/cg/root                                                                                                                                                                                
@@ -38,4 +39,8 @@ bash-4.3$ rm myfile
 bash-4.3$ ls                                                                                                                                                                                 
 README.txt                                                                                                                                                                                   
 bash-4.3$                                                                                                                                                                                    
-          
+    
+exercise 3 ---(3)    
+bash-4.3$ ls -s                                                                                                                                                                              
+total 4                                                                                                                                                                                      
+4 README.txt  0 mydirectory1       
