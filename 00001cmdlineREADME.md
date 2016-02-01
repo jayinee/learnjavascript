@@ -61,6 +61,8 @@ exercise3--(5)
 
 man is the interface used to view the system's reference manuals.
 
+$find --help
+
 $man man 
 
 $find *.jpg
