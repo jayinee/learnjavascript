@@ -44,3 +44,9 @@ exercise 3 ---(3)
 bash-4.3$ ls -s                                                                                                                                                                              
 total 4                                                                                                                                                                                      
 4 README.txt  0 mydirectory1       
+
+<h6>long format listing</h6>
+bash-4.3$ ls -l                                                                                                                                                                              
+total 4                                                                                                                                                                                      
+-rw-r--r-- 1 7949 7949 978 Jan 31 21:42 README.txt                                                                                                                                           
+drwxr-xr-x 2 7949 7949   6 Jan 31 21:47 mydirectory1     
