@@ -63,3 +63,5 @@ man is the interface used to view the system's reference manuals.
 
 $man man 
 
+$find *.jpg
+
