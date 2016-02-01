@@ -19,3 +19,23 @@ letter “s.”
 5. Try learning about commands not covered in this section. For instance, use man pages to read about
 the find command used for finding files on your computer. Use the find command to find all files with the “.jpg”
 file extension on your entire hard drive.
+
+bash-4.3$ $home                                                                                                                                                                              
+bash-4.3$ pwd                                                                                                                                                                                
+/home/cg/root                                                                                                                                                                                
+bash-4.3$ mkdir mydirectory                                                                                                                                                                  
+bash-4.3$ ls                                                                                                                                                                                 
+README.txt  mydirectory                                                                                                                                                                      
+bash-4.3$ rmdir mydirectory                                                                                                                                                                  
+bash-4.3$ pwd                                                                                                                                                                                
+/home/cg/root                                                                                                                                                                                
+bash-4.3$ ls                                                                                                                                                                                 
+README.txt                                                                                                                                                                                   
+bash-4.3$ touch myfile                                                                                                                                                                       
+bash-4.3$ ls                                                                                                                                                                                 
+README.txt  myfile                                                                                                                                                                           
+bash-4.3$ rm myfile                                                                                                                                                                          
+bash-4.3$ ls                                                                                                                                                                                 
+README.txt                                                                                                                                                                                   
+bash-4.3$                                                                                                                                                                                    
+          
