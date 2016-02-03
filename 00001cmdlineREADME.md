@@ -87,3 +87,50 @@ $ cat socks_to_buy.txt
 output:
 <br>
 i should wait to buy socks until next Fall.
+
+8. Write the command to display your Present Working Directory.
+<br>
+<h6>command used:</h6>
+$ pwd
+<br>
+output:
+<br>
+/c/Users/desja01/mydirectory1
+
+9. Write the command to output the current user to the terminal. Thecurrent user is generally the account that
+is logged into the operating system and currently using the terminal.
+<br>
+<h6>command used:</h6>
+$ whoami
+
+10. Write the command to list the files and folders of the folder two above your current directory. For example,
+if you are in C:/Users/John Wayne/My Documents/Tax Forms/ , display all files and folders within the directory C:/Users/John Wayne/ .
+<br>
+<h6>command used:</h6>
+desja01@SSIBRD10 MINGW64 ~/mydirectory1/mydirectory2/mydirectory3
+<br>
+$ ls -l ../..
+<br>
+output:
+<br>
+total 1
+<br>
+drwxr-xr-x 1 desja01 1049089  0 Feb  2 10:56 clean_code_examples
+<br>
+drwxr-xr-x 1 desja01 1049089  0 Feb  2 10:58 cooking_recepies
+<br>
+drwxr-xr-x 1 desja01 1049089  0 Feb  2 10:58 dog_photos
+<br>
+<h6>OR command used:</h6>
+desja01@SSIBRD10 MINGW64 ~/mydirectory1/mydirectory2/mydirectory3
+<br>
+$ ls ../..
+<br>
+output:
+<br>
+clean_code_examples  cooking_recepies  dog_photos  family_photos  file1.txt  mydirectory2  socks_to_buy.txt
+
+11. Write the command to create the file list of best cat pictures.html .
+<br>
+<h6>command used:</h6>
+$touch list_of_best_cat_pictures.html
