@@ -45,3 +45,24 @@ drwxr-xr-x 1 desja01 1049089   0 Feb  2 10:58 cooking_recepies/
 <br>
 drwxr-xr-x 1 desja01 1049089   0 Feb  2 10:58 dog_photos/
 
+4. Write the command and flag that will list all of the files and directories in your current
+directory, including hidden files.
+<br>
+<h6>command used:</h6>
+$ ls -a
+<br>
+output:
+<br>
+./  ../  fie1.txt  mydirectory2/
+
+5. Write the command that will create a folder in your current working directory and name
+it clean_code_examples .
+<br>
+<h6>command used:</h6>
+$ mkdir clean_code_examples
+<br>
+output:
+<br>
+$ ls
+<br>
+clean_code_examples  mydirectory2
