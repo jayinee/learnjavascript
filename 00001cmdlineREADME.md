@@ -66,3 +66,24 @@ output:
 $ ls
 <br>
 clean_code_examples  mydirectory2
+
+6. Write the command to create a new file. Give the file a name and use the .txt extension.
+<br>
+<h6>command used:</h6>
+$ touch file1.txt
+<br>
+output:
+<br>
+$ ls
+<br>
+clean_code_examples  cooking_recepies  dog_photos  family_photos  file1.txt  mydirectory2
+
+7. Write the command that will output the contents of the file socks to buy.txt , located in your current
+working directory, to the terminal.Assume that either socks to buy.txt already exists, or create it yourself.
+<br>
+<h6>command used:</h6>
+$ cat socks_to_buy.txt
+<br>
+output:
+<br>
+i should wait to buy socks until next Fall.
