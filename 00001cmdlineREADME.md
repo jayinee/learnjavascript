@@ -179,3 +179,88 @@ called echo_options.txt
 <br>
 <h6>command used:</h6>
 $ help echo > echo_options.txt
+
+18.Write the command, flag, and flag option to ping 127.0.0.1 two times. A flag option is an option passed
+immediately after a flag.
+<br>
+<h6>command used:</h6>
+two answers possible:
+<br>
+1st)
+<br>
+vi flag
+<br>
+insert mode
+<br>
+write in the file:
+<br>
+ping 127.0.0.1
+<br>
+ping 127.0.0.1
+<br>
+save file using esc shift :wq
+<br>
+view file using : ./flag or sh flag
+<br>
+<br>
+2nd)
+<br>
+vi flag
+<br>
+insert mode
+<br>
+write in the file:
+<br>
+CNT=0
+<br>
+    re='^-?[0-9]+$'
+    <br>
+        if ! [[ $1 =~ $re ]];
+        <br>
+            then
+            <br>
+              echo "error:Not a number. Give +ve number"
+              <br>
+                  else
+                  <br>
+                   if [ "$1" -lt 1 ];
+                   <br>
+                      then
+                      <br>
+                           echo "Give +ve number"
+                           <br>
+                            else
+                            <br>
+                                     while [ $CNT -lt "$1" ];
+                                     <br>
+                                              do
+                                              <br>
+                                                       ping 127.0.0.1
+                                                       <br>
+                                                                let CNT+=1
+                                                                <br>
+                                                                         done
+                                                                         <br>
+                                                                          fi
+                                                                          <br>
+                                                                              fi
+                                                                              <br>
+save file using esc shift :wq
+view file using : ./flag 2 or sh flag 2 (any number in place of 2 will do,but it should be positive number)
+
+19.Write a single command to display the contents of all Markdown files (that have the extension .md )
+to the console.
+<br>
+<h6>command used:</h6>
+$ cat *.md
+<br>
+this is about me
+<br>
+this is my profile.
+<br>
+this is my resume.
+
+20.Write the command to remove the file yesterdays_todo_list.md from the directory you are presently working in.
+<br>
+<h6>command used:</h6>
+$ rm yesterdays_todo_list.md
