@@ -79,26 +79,10 @@ course. Use the -L flag to follow the redirection and receive the correct page.
 <br><html><head>
 <br><title>301 Moved Permanently</title>
 <br></head><body>
-<br><h1>Moved Permanently</h1>
-<br><p>The document has moved <a href="https://study.moderndeveloper.com/">here</a>.</p>
-<br><hr>
-<br><address>Apache/2.2.31 (Unix) mod_ssl/2.2.31 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at study.moderndeveloper.com Port 80</address>
-<br></body></html>
-<br>using -L:
-<br>$ curl -L study.moderndeveloper.com ----this gives huge output ,a whole structure of the page
-<br>using -l:
-<br>$ curl -l study.moderndeveloper.com
-<br>% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  <br>                               Dload  Upload   Total   Spent    Left  Speed
-<br>100   384  100   384    0     0    664      0 --:--:-- --:--:-- --:--:--   664<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <br><html><head>
 <br><title>301 Moved Permanently</title>
 <br></head><body>
 <br><h1>Moved Permanently</h1>
-<br><p>The document has moved <a href="https://study.moderndeveloper.com/">here</a>.</p>
-<br><hr>
-<br><address>Apache/2.2.31 (Unix) mod_ssl/2.2.31 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at study.moderndeveloper.com Port 80</address>
-<br></body></html>
 
 6.Use the mv command and Command Escaping to rename your backup archive.Navigate to the backups directory and rename your backup1.tar archive to output of the date command.
 <br>That is, whatever the output (the text) of the date command is, use that text as the new name for your backup1.tar file.
@@ -113,30 +97,27 @@ to the file.<br>Use those two sentences to describe your dream project.
 
 <br>$ wc -w dreamproject.md
 <br>5 dreamproject.md
-
 <br>$ echo hello this is sentence 1.and this is sentence 2. >> dreamproject.md
 <br>$ wc -w dreamproject.md
 <br>14 dreamproject.md
 
-
-8. Use the grep command to find all JavaScript files located inside your study.html file by searching
+8.Use the grep command to find all JavaScript files located inside your study.html file by searching
 for “ \.js “. Save the result to a new file, javascripts.html .
-
-$ grep \.js study.html > javascript.html
-$ cat javascript.html
-hirva.js
-jayinee.js
-ggg.js
+<h6>command used:</h6>
+<br>$ grep \.js study.html > javascript.html
+<br>$ cat javascript.html
+<br>hirva.js
+<br>jayinee.js
+<br>ggg.js
 
 9. Let’s find out the total number of words inside of the text files ( .txt ) that you created. Use
 the cat command to list all of the contents of the text files inside of your commandlinepractice
 folder; then pipe ( | ) the output of the cat command to the word count program ( wc ).
-
+<h6>command used:</h6>
 $ cat *.txt |wc -w *.txt
 78 filesize.txt
 69 filesizes.txt
 0 textfile1.txt
 0 textfile2.txt
 147 total
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy S
+
