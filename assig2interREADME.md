@@ -110,3 +110,14 @@ folder; then pipe ( | ) the output of the cat command to the word count program
 <br>0 textfile2.txt
 <br>147 total
 
+
+10.Your workspace has undergone many changes since your last backup. Create another backup file
+using tar and the directions in exercise 3; name your backup backup2.tar . Let’s clear out the
+workspace. find all Markdown files, html files, and text files, and remove them by passing the -
+delete flag to your find command. Be careful to not delete your backups folder.
+<h6>command used</h6>
+<br>$ tar -czf backup2.tar commandline-practice
+<br>$ mv backup2.tar backups
+<br>$ find ./*md ./*txt ./*html -delete
+<br>$ ls
+<br>orientation Pages 1 to 5.pdf  study.js
