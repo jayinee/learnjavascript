@@ -25,7 +25,8 @@ listening to.
 <br>$ vi colors.md
 <br>$ ls
 <br>colors.md  dreamproject.md  music.md  myfavoritefoods.md  myname.md
-
+<br>
+<br>
 2.Find out which of the files that you wrote in the previous step had the largest file size.
 Write the command and the correct flags to list the files and their file size in human readable and long format. Then add the
 output to this file: filesizes.txt.
