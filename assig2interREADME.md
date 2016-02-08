@@ -71,28 +71,17 @@ study.html. <br>When you request the file, it will retrieve the web page of the 
 responds, which, in this case, is a server that indicates when the web page has been relocated. <br>This
 routine occurrence is called aredirection. <br> You will learn more about server redirects in an upcoming
 course. Use the -L flag to follow the redirection and receive the correct page.
-
 <h6>command used:</h6>
 <br>$ curl study.moderndeveloper.com > study.html
 <br>$ cat study.html
-<br><!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<br><html><head>
-<br><title>301 Moved Permanently</title>
-<br></head><body>
-<br><html><head>
-<br><title>301 Moved Permanently</title>
-<br></head><body>
-<br><h1>Moved Permanently</h1>
 
 6.Use the mv command and Command Escaping to rename your backup archive.Navigate to the backups directory and rename your backup1.tar archive to output of the date command.
 <br>That is, whatever the output (the text) of the date command is, use that text as the new name for your backup1.tar file.
-
 <h6>command used:</h6>
 
 7.Use the wc command and the correct flag to determine how many words you wrote inside
 your dreamproject.md file. If the file contains fewer than 20 words, append another two sentences
 to the file.<br>Use those two sentences to describe your dream project.
-
 <h6>command used:</h6>
 
 <br>$ wc -w dreamproject.md
@@ -110,14 +99,14 @@ for “ \.js “. Save the result to a new file, javascripts.html .
 <br>jayinee.js
 <br>ggg.js
 
-9. Let’s find out the total number of words inside of the text files ( .txt ) that you created. Use
+9.Let’s find out the total number of words inside of the text files ( .txt ) that you created. Use
 the cat command to list all of the contents of the text files inside of your commandlinepractice
 folder; then pipe ( | ) the output of the cat command to the word count program ( wc ).
 <h6>command used:</h6>
-$ cat *.txt |wc -w *.txt
-78 filesize.txt
-69 filesizes.txt
-0 textfile1.txt
-0 textfile2.txt
-147 total
+<br>$ cat *.txt |wc -w *.txt
+<br>78 filesize.txt
+<br>69 filesizes.txt
+<br>0 textfile1.txt
+<br>0 textfile2.txt
+<br>147 total
 
