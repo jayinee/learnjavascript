@@ -1,7 +1,5 @@
 
 <h2> Command line arguments for developers</h2>
-
-##Project Assignment
 #Project Assignment 1: Beginner
 1. Write the command that will allow you to navigate to two directories above your current directory. Study
 these examples:
@@ -134,3 +132,49 @@ clean_code_examples  cooking_recepies  dog_photos  family_photos  file1.txt  myd
 <br>
 <h6>command used:</h6>
 $touch list_of_best_cat_pictures.html
+
+12. Write the command that will change your current directory to C:/Users/Default User/My Documents .
+Note: the directory C:/Users/Default User/My Documents may not exist on your computer; if that is the
+case, you’ll see the error bash: cd: C:/Users/Default User/My Documents: No such file or
+directory
+<br>
+<h6>command used:</h6>
+current directory :desja01@SSIBRD10 MINGW64 ~/mydirectory1
+<br>
+from this you have to go C:/Users/Default User/My Documents
+<br>
+$ cd C:/Users/Default User/My Documents
+<br>
+$ pwd
+<br>
+/c/Users/Default
+
+13. Write the command that will ping the ip address 8.8.8.8.
+<br>
+<h6>command used:</h6>
+$ ping 8.8.8.8
+
+14.Write the command to change your current directory to the folder <HOME>/documents/ , where <HOME> is
+the single character shortcut for $HOME .
+<br>
+<h6>command used:</h6>
+
+
+15. Use the echo command to display the text “My name is ” followed by your first name. View the help
+or man pages for echo to learn the command’s arguments man echo , help echo or echo --help .
+<br>
+<h6>command used:</h6>
+$ echo My name is jayinee
+<br>
+$ echo "My name is jayinee"
+
+16. Write the command that will show the output of two files, one after another: tylers favorite songs.txt and sarahs favorite songs.txt .
+<br>
+<h6>command used:</h6>
+$ cat tylers_favorite_songs.txt           sarahs_favorite_songs.txt
+
+17. Write the command to show the help, or manual, for the echo command, and add it to a file
+called echo_options.txt
+<br>
+<h6>command used:</h6>
+$ help echo > echo_options.txt
