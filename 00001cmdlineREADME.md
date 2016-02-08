@@ -158,9 +158,9 @@ $ ping 8.8.8.8
 the single character shortcut for $HOME .
 <br>
 <h6>command used:</h6>
+$grgrfgf
 
-
-15. Use the echo command to display the text “My name is ” followed by your first name. View the help
+15.Use the echo command to display the text “My name is ” followed by your first name. View the help
 or man pages for echo to learn the command’s arguments man echo , help echo or echo --help .
 <br>
 <h6>command used:</h6>
@@ -168,12 +168,13 @@ $ echo My name is jayinee
 <br>
 $ echo "My name is jayinee"
 
-16. Write the command that will show the output of two files, one after another: tylers favorite songs.txt and sarahs favorite songs.txt .
+
+16.Write the command that will show the output of two files, one after another: tylers favorite songs.txt and sarahs favorite songs.txt .
 <br>
 <h6>command used:</h6>
 $ cat tylers_favorite_songs.txt           sarahs_favorite_songs.txt
 
-17. Write the command to show the help, or manual, for the echo command, and add it to a file
+17.Write the command to show the help, or manual, for the echo command, and add it to a file
 called echo_options.txt
 <br>
 <h6>command used:</h6>
